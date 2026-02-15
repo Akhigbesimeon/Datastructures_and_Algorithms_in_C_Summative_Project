@@ -14,7 +14,7 @@ int main() {
     srand(time(NULL));
 
     printf("== Smart Meter Gateway Firmware ==\n");
-    printf("Controls: [n]ext, [p]rev, [r]un live, [h]old live, [c]lear, [x]exit\n");
+    printf("Controls: [n]next event, [p]previous event, [r]run live event display, [h]Pause live display, [c]clear, [x]exit\n");
     printf("NB:In this sim, pressing [ENTER] simulates a sensor reading cycle.\n");
 
     while (running) {
