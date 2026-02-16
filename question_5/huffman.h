@@ -23,13 +23,11 @@ typedef struct MinHeap {
 } MinHeap;
 
 // Function Prototypes
-bool compress_file(const char *input_file, const char *output_file);
-
-bool decompress_file(const char *input_file, const char *output_file);
+void compressLogFile(const char *inputFilename, const char *outputFilename);
+void decompressLogFile(const char *inputFilename, const char *outputFilename);
 
 // Utility Functions
-long get_file_size(const char *filename);
+long getFileSize(const char *filename);
+int compareFiles(const char *file1, const char *file2);
 
-bool verify_integrity(const char *file1, const char *file2);
-
-#endif 
+#endif

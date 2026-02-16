@@ -1,0 +1,5 @@
+[2026-02-16 14:00:01] INFO: Main Motor temp nominal (45C)
+[2026-02-16 14:00:05] INFO: Main Motor temp nominal (45C)
+[2026-02-16 14:00:10] WARN: Conveyor belt speed variance detected
+[2026-02-16 14:00:15] INFO: Main Motor temp nominal (46C)
+[2026-02-16 14:00:20] ERROR: Sensor node 4 disconnected
